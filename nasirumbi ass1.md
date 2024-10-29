@@ -1,18 +1,20 @@
-#Cyber Kill Chain
+# Cyber Kill Chain
+
 The kill chain model is a cybersecurity framework that outlines the seven stages of a cyberattack: reconnaissance, weaponization, delivery, exploitation, installation, command and control (C2), and actions on objectives. 
 This intelligence-driven approach emphasizes proactive defense by understanding and disrupting an attacker's activities at any stage, rather than simply reacting to compromises. 
 The model proposes that interrupting even one phase can block an entire attack, providing defenders with multiple opportunities to counter threats. 
 By aligning defensive capabilities with each stage of the kill chain and utilizing various indicators (atomic, computed, and behavioral), organizations can enhance their security posture and challenge the notion that attackers inherently have an advantage in cybersecurity.
-#Reference Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains
+Reference Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains 
 
-#MITRE ATT&CK Framework
+# MITRE ATT&CK Framework
+
 The MITRE ATT&CK Framework is a comprehensive knowledge base that catalogs adversary tactics, techniques, and procedures (TTPs) used in cyberattacks.
  It serves as a globally accessible resource for cybersecurity professionals, providing a common language and structure for understanding and describing cyber threats. 
 The framework is organized into a matrix of tactics (representing the "why" or objectives of an attack) and techniques (detailing the "how" or methods used to achieve those objectives). This structure allows organizations to assess their security posture, identify gaps in their defenses, and develop more effective threat detection and response strategies.
-By offering detailed information on known adversary behaviors, MITRE ATT&CK enables security teams to prioritize their efforts, improve threat intelligence, and enhance overall cybersecurity resilience.
-#Reference: MITRE. (2024). MITRE ATT&CK®. Retrieved October 28, 2024, from https://attack.mitre.org/
+MITRE ATT&CK enables security teams to prioritize their efforts, improve threat intelligence, and enhance cybersecurity resilience by offering detailed information on known adversary behaviors.
+Reference: MITRE. (2024). MITRE ATT&CK®. Retrieved October 28, 2024, from https://attack.mitre.org/
 
-##How would you compare the Cyber Kill Chain and ATT&CK Enterprise matrix? Who do you think could benefit from these models?
+## How would you compare the Cyber Kill Chain and ATT&CK Enterprise matrix? Who do you think could benefit from these models?
 
 The Cyber Kill Chain and MITRE ATT&CK Enterprise matrix are both valuable frameworks in cybersecurity, but they differ in their approach and level of detail. The Cyber Kill Chain presents a linear, seven-stage model of cyberattacks, providing a high-level overview of the attack process. In contrast, the ATT&CK Enterprise matrix offers a more complex  approach, with 14 tactics and different techniques and sub-techniques, covering a wide range of adversary behaviors
 
@@ -21,21 +23,21 @@ The Cyber Kill Chain is used for developing a high-level understanding of attack
 Both models offer valuable insights for various stakeholders in the cybersecurity ecosystem. While the Cyber Kill Chain's simplicity can be valuable for high-level strategic planning and communication, the ATT&CK framework generally offers a more comprehensive and flexible approach to understanding and addressing modern cyber threats. Organizations may benefit from using both models in complementary ways: the Cyber Kill Chain for broad strategic planning and the ATT&CK matrix for detailed tactical and operational cybersecurity activities
 #Reference : MITRE ATT&CK vs Cyber Kill Chain
 
-##Pick a security incident and learn about it. Write briefly about it. Point out the concepts of threat actor, exploit, vulnerability, and (business) impact. (You can find writeups about security incidents from Darknet Diaries and Krebs)
+## Pick a security incident and learn about it. Write briefly about it. Point out the concepts of threat actor, exploit, vulnerability, and (business) impact. (You can find writeups about security incidents from Darknet Diaries and Krebs)
 The incident I have chosen is EP 148: Dubsnatch
 
 The Dubsnatch incident involves a teenage music enthusiast, known as Professor Dubstep, who exploited vulnerabilities in online systems to access unreleased music tracks and insider information from the electronic dance music (EDM) industry.
 
-Threat Actor
+-Threat Actor
 The primary threat actor in this case was Professor Dubstep, a 13-year-old fan of electronic music who initially had no malicious intent but gradually became involved in more questionable activities.
 
-Exploits and Vulnerabilities
+-Exploits and Vulnerabilities
 Professor Dubstep exploited several vulnerabilities:
 Bitly URL Shortener Flaw: By adding a '+' to the end of shortened links, users could access the public profile of the account that created the link, revealing all their shortened URLs.
 Weak Access Controls: Management accounts often shared internal documents using the same Bitly accounts used for public promotions, inadvertently exposing sensitive information.
 Social Engineering: Professor Dubstep manipulated other collectors by creating fake "unreleased" tracks to trade for genuine unreleased music.
 
-Business Impact
+-Business Impact
 The incident had several potential impacts on the music industry:
 Premature Exposure: Unreleased tracks and promotional plans were accessed before their intended release dates.
 Loss of Competitive Advantage: Internal memos and promotion plans being exposed could give competitors insight into marketing strategies.
@@ -43,7 +45,7 @@ Reduced Track Value: As noted by Professor Dubstep, when an unreleased track lea
 
 While the full extent of the damage is not detailed in the provided information, the incident highlights the need for improved security practices in the music industry, especially regarding the handling of unreleased material and internal communications.
 
-##Install Debian on Virtualbox. Report your work, including the environment (including host OS, the real physical computer used), the steps you took, and their results.
+## Install Debian on Virtualbox. Report your work, including the environment (including host OS, the real physical computer used), the steps you took, and their results.
 
 Environment
 Host OS: Windows 10 Home
