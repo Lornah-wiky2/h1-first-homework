@@ -91,6 +91,7 @@ I started the virtual machine and began the Debian installation process:
 I selected to install from the boot menu
 Choose the language(English), location, and keyboard layout. 
 Created a user name (Lornah123) 
-Created login name (Lornah)and password.
- Note: At this point, I am able to access my VM
-#Reference https://terokarvinen.com/2021/install-debian-on-virtualbox/ 
+I created the login name (Lornah)and password.
+ Note: At this point, I can access my VM
+#Reference https://terokarvinen.com/2021/install-debian-on-virtualbox/
+
