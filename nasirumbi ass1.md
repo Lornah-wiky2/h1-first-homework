@@ -75,7 +75,7 @@ I used the Microsoft community to get this advice which worked
 3. Create a New Virtual Machine
 
 I launched VirtualBox selected expert mode and created a new virtual machine with the following settings:
-- Name: Debian Nasirumbilornah
+- Name: DebianTeroKarninenCom
 - Type: Linux
 - Version: Debian (64-bit)
 - Memory: 2024 MB (considering the host system has 4 GB RAM)
@@ -86,12 +86,17 @@ Note: Configurations of the Virtual Machine Settings are already done. I had to 
 - Storage: Attached the downloaded Debian ISO to the virtual optical drive
 - Network: Enabled NAT for internet connectivity
 
-4. Start Installation
+4. Start Installation   
 I started the virtual machine and began the Debian installation process:
 I selected to install from the boot menu
 Choose the language(English), location, and keyboard layout. 
 Created a user name (Lornah123) 
 I created the login name (Lornah)and password.
  Note: At this point, I can access my VM
+![Final 1  login page](https://github.com/user-attachments/assets/9c9e9e18-7e2a-4396-9eaa-4360bd16e5a0)
+
+![final 3  inside vm](https://github.com/user-attachments/assets/e5ddda36-c686-45a4-b6e9-345805fef380)
+
+
 #Reference https://terokarvinen.com/2021/install-debian-on-virtualbox/
 
